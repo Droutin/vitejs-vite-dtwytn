@@ -1,0 +1,16 @@
+$bg-color: #171721;
+$content-color: #2d2d39;
+$primary: #a6004a;
+$text-color: #fff;
+$border-color: lighten($content-color, 15%);
+$muted: lighten($content-color, 50%);
+
+$error: #c81010;
+$success: #4ba000;
+$warning: yellow;
+$info: #2c50ef;
+
+$shadow-color: #212121;
+
+$font-family: "Roboto", sans-serif;
+$font-family-title: "Roboto", sans-serif;

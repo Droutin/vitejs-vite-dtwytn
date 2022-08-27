@@ -1,0 +1,8 @@
+@use "sass:math";
+
+@mixin font-size($s, $c: 16, $i: null) {
+  font-size: math.div($s, $c) + em $i;
+}
+@function remcalc($px) {
+  @return math.div($px, 16) + rem;
+}
